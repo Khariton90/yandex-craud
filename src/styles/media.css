@@ -200,8 +200,7 @@
 			&::before {
 				content: '';
 				position: absolute;
-
-				background: url('/images/slide-bg.jpg') center center no-repeat;
+				background: url('/images/slide-bg.webp') center center no-repeat;
 				width: calc(50% - 10px);
 				height: 100%;
 				background-size: cover;
