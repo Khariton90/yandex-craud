@@ -92,7 +92,7 @@ class Slider {
 	loop = () => {
 		const slideWidth = this.node.scrollWidth / this.count
 
-		if (this.current === 5) {
+		if (this.current > this.max) {
 			this.current = 0
 		}
 
