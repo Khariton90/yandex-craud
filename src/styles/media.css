@@ -109,6 +109,10 @@
 			margin-bottom: 48px;
 		}
 	}
+
+	.running-line__wrapper {
+		animation: runningLine 30s linear infinite alternate-reverse;
+	}
 }
 
 @media (width >= 1200px) {

@@ -148,7 +148,6 @@ img {
 .running-line {
 	background-color: var(--color-accent);
 	color: var(--color-white);
-
 	text-wrap: nowrap;
 	padding: 18px 12px;
 	font-family: 'Merriweather', sans-serif;
@@ -167,7 +166,7 @@ img {
 	width: 100%;
 	display: flex;
 	column-gap: 30px;
-	animation: runningLine 30s linear infinite alternate-reverse;
+	animation: runningLine 10s linear infinite alternate-reverse;
 	text-transform: uppercase;
 
 	& span {
@@ -191,7 +190,7 @@ img {
 		transform: translateX(0%);
 	}
 	100% {
-		transform: translateX(-100%);
+		transform: translateX(-150%);
 	}
 }
 
@@ -416,6 +415,7 @@ img {
 	& .adaptive-layout__wrapper {
 		display: flex;
 		width: max-content;
+		transition: all 0.2s ease;
 	}
 
 	& .adaptive-layout__item {
